@@ -1,15 +1,35 @@
 .Modal {
   position: fixed;
-  top: calc(50% - 50px);
-  height: 100px;
+  text-align: center;
+  top: calc(50% - 65px);
+  left: calc(50% - 100px);
+  width: 200px;
+  height: 130px;
   padding: 20px;
-  box-shadow: 0 0 4px rgba(0, 0, 0, 0.35);
+  box-shadow: 0 0 20px rgba(27, 255, 141, 0.73);
   border-radius: 8px;
   background-color: ghostwhite;
   z-index: 9;
+  font-size: 15px;
+  font-weight: 700;
 }
 
 .Modal__btns {
   display: flex;
+  justify-content: space-around;
   gap: 10px;
+}
+
+.btn__annulla {
+  height: 40px;
+  border: 1px solid rgb(103, 3, 107);
+  border-radius: 100px;
+  font-weight: 700;
+}
+
+.btn__conferma {
+  height: 40px;
+  border-radius: 100px;
+  border: 1px solid #036942;
+  font-weight: 700;
 }

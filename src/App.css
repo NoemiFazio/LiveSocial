@@ -27,6 +27,9 @@
   width: 400px;
   flex-grow: 3;
 }
+.Search {
+  width: 300px;
+}
 
 @media (max-width: 767px) {
   .App {

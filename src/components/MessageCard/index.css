@@ -2,7 +2,7 @@
   position: relative;
   padding: 6px 20px;
   border-radius: 6px;
-  box-shadow: 0 0 5px rgba(27, 255, 141, 0.73);
+  box-shadow: 0 0 10px rgba(27, 255, 141, 0.73);
 }
 
 .MessageCard__text {

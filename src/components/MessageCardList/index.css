@@ -1,10 +1,11 @@
 .MessageCardList {
   display: flex;
   flex-direction: column;
-
   gap: 10px;
 }
 .MessageCardList__btn {
   border-radius: 20px;
   width: 200px;
+  margin-top: 10px;
+  height: 25px;
 }
