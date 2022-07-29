@@ -1,0 +1,16 @@
+.AddFriend {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.AddFriend input {
+  border-radius: 20px;
+}
+
+.AddFriend__btn {
+  border-radius: 20px;
+  height: 30px;
+  width: 100px;
+}

@@ -1,0 +1,44 @@
+.FriendCard {
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 5px rgba(27, 255, 141, 0.73);
+  color: #0fffa3;
+  cursor: pointer;
+  transition: all 0.35s;
+  border-radius: 8px;
+}
+
+.FriendCard:hover {
+  background: rgba(195, 42, 200, 0.538);
+}
+
+.FriendCard__photo {
+  width: 75px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.FriendCard__name {
+  padding: 4px 14px;
+  font-size: 15px;
+  font-weight: bold;
+  width: 100%;
+}
+
+.FriendCard__delete-btn {
+  top: 10px;
+  right: 10px;
+  background-color: transparent;
+  border: 0;
+  color: #0fffa3;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 1.35s;
+}
+.FriendCard__delete-btn:hover {
+  transform: scale(1.4) rotate(359deg);
+}

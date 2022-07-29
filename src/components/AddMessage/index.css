@@ -1,0 +1,19 @@
+.AddMessage {
+  margin-bottom: 40px;
+  padding: 6px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.AddMessage input {
+  width: 100%;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+.AddMessage__btn {
+  border-radius: 20px;
+  height: 30px;
+  width: 100px;
+}
